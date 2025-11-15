@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, Target, Zap, ArrowRight, Instagram } from "lucide-react";
+import { Brain, Target, Zap, ArrowRight, Instagram, Facebook } from "lucide-react";
 import RiddleCard from "@/components/RiddleCard";
 import { riddles } from "@/data/riddles";
 
@@ -42,6 +42,17 @@ const Home = () => {
               >
                 <Instagram className="h-5 w-5" />
                 Follow on Instagram
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <a
+                href="YOUR_FACEBOOK_PAGE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Facebook className="h-5 w-5" />
+                Follow on Facebook
               </a>
             </Button>
           </div>
@@ -122,19 +133,32 @@ const Home = () => {
             Join Our Community
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            Follow @focus.and.tricks on Instagram for daily riddles, motivation, and productivity tips!
+            Follow @focus.and.tricks on Instagram and Facebook for daily riddles, motivation, and productivity tips!
           </p>
-          <Button asChild size="lg" variant="secondary">
-            <a
-              href="https://instagram.com/focus.and.tricks"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 mx-auto"
-            >
-              <Instagram className="h-5 w-5" />
-              Follow Now
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" variant="secondary">
+              <a
+                href="https://instagram.com/focus.and.tricks"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Instagram className="h-5 w-5" />
+                Follow on Instagram
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="secondary">
+              <a
+                href="YOUR_FACEBOOK_PAGE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Facebook className="h-5 w-5" />
+                Follow on Facebook
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
     </div>

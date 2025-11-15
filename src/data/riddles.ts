@@ -69,6 +69,62 @@ export const riddles: Riddle[] = [
     answer: "A coffin",
     difficulty: "Hard",
     category: "Mystery"
+  },
+  {
+    id: 10,
+    question: "Hindi Jumble: AKHNA (Hint: Body part / शरीर का अंग)",
+    answer: "ANKH (आँख - Eye)",
+    difficulty: "Easy",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 11,
+    question: "Hindi Jumble: DMIAAG (Hint: Mind / दिमाग)",
+    answer: "DIMAAG (दिमाग)",
+    difficulty: "Medium",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 12,
+    question: "Hindi Jumble: PRIAAVR (Hint: Family / परिवार)",
+    answer: "PARIVAR (परिवार)",
+    difficulty: "Medium",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 13,
+    question: "Hindi Jumble: KSAABL (Hint: Word / शब्द)",
+    answer: "SHABD (शब्द)",
+    difficulty: "Easy",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 14,
+    question: "Hindi Jumble: KITTAAB (Hint: Book / किताब)",
+    answer: "KITAAB (किताब)",
+    difficulty: "Easy",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 15,
+    question: "Hindi Jumble: DSOTO (Hint: Friend / दोस्त)",
+    answer: "DOST (दोस्त)",
+    difficulty: "Easy",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 16,
+    question: "Hindi Jumble: PPYAAR (Hint: Love / प्यार)",
+    answer: "PYAAR (प्यार)",
+    difficulty: "Easy",
+    category: "Hindi Jumble"
+  },
+  {
+    id: 17,
+    question: "Hindi Jumble: HSAALKA (Hint: School / स्कूल)",
+    answer: "SHAALA (शाला)",
+    difficulty: "Medium",
+    category: "Hindi Jumble"
   }
 ];
 
