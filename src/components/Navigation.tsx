@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Instagram } from "lucide-react";
+import { Menu, X, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -55,6 +55,17 @@ const Navigation = () => {
                 Follow
               </a>
             </Button>
+            <Button asChild size="sm" variant="outline" className="ml-2">
+              <a
+                href="YOUR_FACEBOOK_PAGE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Facebook className="h-4 w-4" />
+                Facebook
+              </a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,6 +102,17 @@ const Navigation = () => {
               >
                 <Instagram className="h-4 w-4" />
                 Follow on Instagram
+              </a>
+            </Button>
+            <Button asChild size="sm" variant="outline" className="w-full mt-2">
+              <a
+                href="YOUR_FACEBOOK_PAGE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
+              >
+                <Facebook className="h-4 w-4" />
+                Follow on Facebook
               </a>
             </Button>
           </div>
