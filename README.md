@@ -79,22 +79,6 @@ Every push to the repo triggers an automatic redeploy.
 
 ---
 
-## 🏷 Suggested Repo Name
-
-```
-focus-and-tricks-website
-```
-
-or
-
-```
-focus-tricks-riddles
-```
-
-(Use whichever you like 😎)
-
----
-
 ## 📸 Instagram
 
 Follow the original content here:
