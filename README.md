@@ -21,7 +21,7 @@ The goal of this project is to bring all the content into a fun, interactive web
 
 ## 🚀 Live Website
 
-🔗 Netlify Deploy: *coming soon*
+🔗 Netlify Deploy: https://focusandtricks.netlify.app/
 
 ---
 
@@ -57,7 +57,7 @@ This project uses:
 ## 💻 How to Run Locally
 
 ```bash
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/charvijain12/focusandtricks)
 cd focus-and-tricks-website
 npm i
 npm run dev
