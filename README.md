@@ -57,7 +57,7 @@ This project uses:
 ## 💻 How to Run Locally
 
 ```bash
-git clone [<repo-url>](https://github.com/charvijain12/focusandtricks)
+git clone <repo-url>
 cd focus-and-tricks-website
 npm i
 npm run dev
